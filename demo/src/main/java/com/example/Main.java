@@ -1,5 +1,4 @@
 package com.example;
-
 import com.example.sala.*;
 public class Main {
   public static void main(String[] args) {
