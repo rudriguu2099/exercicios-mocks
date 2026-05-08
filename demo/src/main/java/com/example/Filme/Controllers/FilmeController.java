@@ -16,8 +16,8 @@ public class FilmeController {
         return filmeService.listarFilmes();
     }
 
-    public void cadastrarFilme(String nome, String diretor, int ano, String genero) {
-        filmeService.adicionarFilme(nome, diretor, ano, genero);
+    public void cadastrarFilme(String nome, String diretor, int ano, String genero, int id) {
+        filmeService.adicionarFilme(nome, diretor, ano, genero, id);
     }
 
     public boolean deletarFilme(String nome) {

@@ -13,8 +13,8 @@ public class FilmeService {
         this.filmes = new ArrayList<>();
     }
 
-    public void adicionarFilme(String nome, String diretor, int ano, String genero) {
-        Filme filme = new Filme(nome, diretor, ano, genero);
+    public void adicionarFilme(String nome, String diretor, int ano, String genero, int id) {
+        Filme filme = new Filme(nome, diretor, ano, genero, id);
         filmes.add(filme);
     }
 
